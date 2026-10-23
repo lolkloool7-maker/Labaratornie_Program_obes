@@ -1,0 +1,16 @@
+
+TYPE
+	DoorStates : 
+		(
+		ST_INIT := 0,
+		ST_UNKNOWN,
+		ST_OPEN,
+		ST_CLOSE,
+		ST_ACC_NEG,
+		ST_DEC_NEG,
+		ST_NEG,
+		ST_ACC_POS,
+		ST_POS,
+		ST_DEC_POS
+		);
+END_TYPE
